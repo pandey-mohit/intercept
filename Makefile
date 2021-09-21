@@ -120,7 +120,7 @@ build-package:
 	zip -9 -T -x "*.DS_Store*" "*interceptm*" "*intercept.exe*" "*interceptl*" -r output/setup-buildpack.zip release/
 
 setup-dev:
-	curl -S -O -J -L https://github.com/pandey-mohit/intercept/releases/latest/download/setup-buildpack.zip
+	curl -S -O -J -L https://github.com/xfhg/intercept/releases/latest/download/setup-buildpack.zip
 	unzip setup-*
 	chmod -R a+x release/
 	mkdir output/
